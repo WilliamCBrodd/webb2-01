@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ex1, .ex2 {
+    text-transform: uppercase;
+}
+
+
+.ex2::first-letter {
+    font-size: 2rem;
+}
