@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+    font-size: 3rems;
+}
+
+h1:first-letter {
+    color: orange;
+}
