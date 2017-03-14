@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    background-color: green;
+    
+}
+
+span:last-of-type {
+    background-color: green;
+    
+}
+
+p span:last-of-type {
+    background-color: crimson;
+}
