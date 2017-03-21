@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td, tr {
+    text-align: left;
+    margin: 0.5rem;
+    border-collapse: collapse;
+    width: 20rem;
+    padding: 0.2rem;
+}
+
+th {
+    font-weight: bold;
+    color: white;
+    background-color: #2ECC71;
+}
+
+tr {
+}
+
+td {
+    background-color: #C8F7C5;
+    border-bottom: 1px solid #2ECC71;
+
+}
