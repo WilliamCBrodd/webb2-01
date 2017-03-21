@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table, td, th, tr {
+    padding: 1rem;
+    border-collapse: collapse;
+    border: 1px solid #6C7A89;
+
+}
+
+th{
+    background-color: #6C7A89;
+    color: white;
+}
+
+td:nth-child(odd) {
+    background-color: #D2D7D3;
+
+}
