@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    margin: 10px;
+}
+
+blockquote {
+    margin: 20px;
+    float: right;
+    width: 400px;
+    height: 300px;
+    background-color: #E4F1FE;
+    border: 4px double #000;
+}
+
+blockquote p:first-of-type::before {
+    content: open-quote;
+}
+
+blockquote p:nth-last-of-type(2)::after {
+    content: close-quote;
+}
+
+blockquote p:last-of-type::before {
+    content: "-";    
+}
+
+blockquote p:last-of-type {
+    font-style: italic;
+    text-align: right
+    
+}
+
