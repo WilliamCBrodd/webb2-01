@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100vh;
+    width: 20%;
+    float: left;
+}
+
+.blue {
+    background-color: #22A7F0;
+}
+
+.red {
+    background-color: #C0392B;
+}
+
+.green {
+    background-color: #87D37C;
+}
+
+.yellow {
+    background-color: #F4D03F;
+}
+
+.gray {
+    background-color: #ABB7B7;
+}
