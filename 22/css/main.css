@@ -13,9 +13,9 @@ body {
 }
 
 div {
+    float: left;
     height: 100vh;
     width: 20%;
-    float: left;
 }
 
 .blue {
